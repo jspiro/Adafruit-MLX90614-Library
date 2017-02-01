@@ -1,4 +1,6 @@
-/*************************************************** 
+#ifndef _ADAFRUIT_MLX90614
+#define _ADAFRUIT_MLX90614
+/***************************************************
   This is a library for the MLX90614 Temp Sensor
 
   Designed specifically to work with the MLX90614 sensors in the
@@ -6,10 +8,10 @@
   ----> https://www.adafruit.com/products/1748
   ----> https://www.adafruit.com/products/1749
 
-  These sensors use I2C to communicate, 2 pins are required to  
+  These sensors use I2C to communicate, 2 pins are required to
   interface
-  Adafruit invests time and resources providing this open source code, 
-  please support Adafruit and open-source hardware by purchasing 
+  Adafruit invests time and resources providing this open source code,
+  please support Adafruit and open-source hardware by purchasing
   products from Adafruit!
 
   Written by Limor Fried/Ladyada for Adafruied in any redistribution
@@ -68,3 +70,4 @@ class Adafruit_MLX90614  {
   void write16(uint8_t addr, uint16_t data);
 };
 
+#endif
